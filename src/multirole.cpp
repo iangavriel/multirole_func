@@ -2,12 +2,13 @@
 
 int main()
 {
+    // "Array" of functions
     MultiRole roles[] =
         {
-            roleKeeper,
-            roleDefender,
             roleAssist,
-            roleAttacker};
+            roleAttacker,
+            roleDefender,
+            roleKeeper};
 
     // misal mau coba tes tinggal di panggil kek di bawah ini
     roles[0]();
