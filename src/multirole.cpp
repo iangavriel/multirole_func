@@ -8,12 +8,15 @@ int main()
             roleDefender,
             roleAssist,
             roleAttacker};
+
+    // misal mau coba tes tinggal di panggil kek di bawah ini
+    roles[0]();
 }
 
 void roleAssist()
 {
     // Ini diisi fungsi-fungsi assist
-    AssistRun;
+    // AssistRun;
     AssistPrepKickoffHome;
 }
 
