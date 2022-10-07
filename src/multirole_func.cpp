@@ -1,4 +1,4 @@
-#include "multirole_func/multirole.h"
+#include "multirole_func/multirole_func.h"
 
 int main()
 {
@@ -18,19 +18,19 @@ void roleAssist()
 {
     // Ini diisi fungsi-fungsi assist
     // AssistRun;
-    AssistPrepKickoffHome;
+    // AssistPrepKickoffHome;
 }
 
 void roleAttacker()
 {
     // Ini diisi fungsi-fungsi attacker
-    att_run;
+    // att_run;
 }
 
 void roleDefender()
 {
     // Ini diisi fungsi-fungsi defender
-    DefRun;
+    // DefRun;
 }
 
 void roleKeeper()
