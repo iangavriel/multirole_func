@@ -1,10 +1,19 @@
 #include <ros/ros.h>
 #include <iostream>
 
-typedef int (*MultiRole)(int _role);
+#include "assist/assist.h"
+#include "attacker/attacker.h"
+#include "defender/defender.h"
+#include "goalkeeper/goalkeeper.h"
 
-int roleKeeper(int _role);
-int roleLeftDefender(int _role);
-int roleRightDefender(int _role);
-int roleAssist(int _role);
-int roleAttacker(int _role);
+#include "assist/BS_utils.h"
+#include "attacker/BS_utils.h"
+#include "defender/BS_utils.h"
+#include "goalkeeper/gk_utils.h"
+
+typedef void (*MultiRole)();
+
+void roleKeeper();
+void roleDefender();
+void roleAssist();
+void roleAttacker();
